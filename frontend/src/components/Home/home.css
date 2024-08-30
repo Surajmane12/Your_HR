@@ -1,0 +1,86 @@
+
+.home_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 2rem;
+}
+.left_section h1{
+   font-size:3rem;
+   font-weight: 700;
+   margin-bottom: 2rem;
+   /* color: white; */
+}
+.left_section p{
+    /* font-size:2rem; */
+    font-size: 20px;
+   font-weight: 400;
+   width: 40rem;
+   color:rgba(0, 0, 0, 0.803);
+   text-wrap: wrap;
+
+}
+.right_section img{
+    width: 45rem;
+}
+
+
+.see_job_btn button{
+    width:10rem;
+    margin: 2rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.234);
+    padding: 1rem;
+    /* margin-top: 5rem; */
+}
+
+
+@media screen and (max-width: 480px) {
+    .home_section {
+        justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .home_section {
+        width: 10rem;
+    justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+    .right_section img{
+       width: 24rem;
+    }
+    .left_section p{
+        width: 12rem;
+        text-align: justify;
+
+    }
+    .left_section h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .home_section {
+        width: 10rem;
+    justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+    }
+    .right_section img{
+       width: 24rem;
+    }
+    .left_section p{
+        width: 12rem;
+        text-align: justify;
+
+    }
+    .left_section h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+}

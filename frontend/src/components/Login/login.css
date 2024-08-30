@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(9, 221, 236, 0.755);
+}
+
+.outer_container{
+    margin: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    
+    
+}
+.login_container{
+    width: 35rem;
+    height: 30rem;
+    border-radius: 20px;
+    /* box-shadow: 4px 4px 2px rgb(0,0,0,0.2); */
+    background-color: white;
+}
+
+.login_svg img{
+    width: 25rem; 
+}
