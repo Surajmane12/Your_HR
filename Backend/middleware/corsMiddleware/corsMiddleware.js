@@ -1,5 +1,5 @@
 
-const allowedOrigins = ["https://your-hr-2-frontends.onrender.com/"];
+const allowedOrigins = ["https://your-hr-2-frontends.onrender.com"];
 
 const corsOptions = {
   origin: (origin, callback) => {
@@ -12,4 +12,5 @@ const corsOptions = {
 };
 
 module.exports = corsOptions;
+
 
