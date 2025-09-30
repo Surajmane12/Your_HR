@@ -20,7 +20,8 @@ app.use('/signup',user_routes);
 
 
 
-const port = process.env.PORT;
+const port = 5000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
+
